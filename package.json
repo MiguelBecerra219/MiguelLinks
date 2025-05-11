@@ -1,0 +1,21 @@
+{
+  "name": "out-out",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "build:styles": "npx @tailwindcss/cli -i ./input.css -o ./assets/output.css --watch"
+  },
+  "dependencies": {
+    "@midudev/tailwind-animations": "^0.2.0",
+    "@tailwindcss/vite": "^4.1.5",
+    "astro": "^5.7.10",
+    "tailwindcss": "^4.1.5"
+  },
+  "devDependencies": {
+    "@astrojs/cloudflare": "^12.5.2"
+  }
+}
